@@ -11,13 +11,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.vc_call_vol_steps=5 \
     ro.vendor.ddk.set.afbc=1 \
     security.securehw.available=false \
-    security.securenvm.available=false \
+    security.securenvm.available=false
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.bluetooth=external \
+    ro.config.bluetooth=external
 # Crypto
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.security.fips_scrypto.ver=2.2 \
+    ro.security.fips_scrypto.ver=2.2
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapgrowthlimit=256m \
@@ -26,23 +26,19 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapsize=512m \
     dalvik.vm.heapstartsize=8m \
     dalvik.vm.heaptargetutilization=0.75 \
-    dalvik.vm.lockprof.threshold=500 \
+    dalvik.vm.lockprof.threshold=500
 # FM
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.fmradio=external \
-    ro.security.fips_fmp.ver=1.4 \
+    ro.security.fips_fmp.ver=1.4
 # FRP
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.frp.pst=/dev/block/persistent \
+    ro.frp.pst=/dev/block/persistent
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_backpressure=1 \
     persist.demo.hdmirotationlock=false \
     ro.opengles.version=196610 \
-    ro.sf.init.lcd_density=640 \
-    ro.sf.lcd_density=480 \
-# Media
-PRODUCT_PROPERTY_OVERRIDES += \
 # Misc
 PRODUCT_PROPERTY_OVERRIDES += \
     config.disable_consumerir=true \
@@ -117,17 +113,17 @@ PRODUCT_PROPERTY_OVERRIDES += \
     security.mdf.result=None \
     security.mdf=None \
     sys.config.activelaunch_enable=true \
-    sys.config.phone_start_early=true \
+    sys.config.phone_start_early=true
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.carrier=unknown \
     vendor.sec.rild.libpath2=/vendor/lib64/libsec-ril-dsds.so \
-    vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so \
+    vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
 # USB
 PRODUCT_PROPERTY_OVERRIDES += \
     dev.usbsetting.embedded=on \
-    ro.config.usb_by_primary=no \
+    ro.config.usb_by_primary=no
 # WLAN
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.security.wlan.release=2 \
-    ro.security.wlan.ver=1.0 \
+    ro.security.wlan.ver=1.0
