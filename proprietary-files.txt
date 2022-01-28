@@ -375,11 +375,6 @@ vendor/etc/init/vendor.samsung.hardware.tlc.ucm@2.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.vibrator@2.1-service.rc
 vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc
 vendor/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc
--vendor/etc/vintf/manifest/vendor.samsung.hardware.authfw@1.0-manifest.xml
--vendor/etc/vintf/manifest/vendor.samsung.hardware.base@1.0-service.xml
--vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.atn@1.0-manifest.xml
--vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.iccc@1.0-manifest.xml
--vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.tima@1.0-manifest.xml
 vendor/lib/hw/vendor.samsung.hardware.snap@1.1-impl.so
 vendor/lib/libDLInterface.camera.samsung.so
 vendor/lib/libOpenCv.camera.samsung.so
